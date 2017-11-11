@@ -5,7 +5,7 @@ USE ColiseumDatabase;
 
 CREATE TABLE Users (
 	username VARCHAR(25) PRIMARY KEY NOT NULL,
-	pass VARCHAR(25) NOT NULL,
+	pass VARCHAR(50) NOT NULL,
 	highScore INT(25)
 );
 
