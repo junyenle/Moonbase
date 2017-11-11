@@ -15,7 +15,7 @@ CREATE TABLE HighScores (
 );
 
 INSERT INTO Users (username, pass, highScore)
-	VALUES ('testUser', 'testPass');
+	VALUES ('testUser', 'testPass', 69420);
 
 INSERT INTO HighScores (username, highScore)
 	VALUES ('testUser', 69420);
