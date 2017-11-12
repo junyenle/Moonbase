@@ -8,11 +8,18 @@ try
 	Console.WriteLine("Connected to Server");
 	
 	// anything past here isn't working yet
-	// NetworkStream stream = client.GetStream();				// get stream
-	// StreamWriter writer = new StreamWriter(stream);			// create writer
+	NetworkStream stream = client.GetStream();				// get stream
+	Console.WriteLine("got here");
+	StreamWriter writer = new StreamWriter(stream);			// create writer
 	
-	// writer.WriteLine("Test Send");							// send text
-	// writer.Flush();											
+	Console.WriteLine("Sending test message");
+	writer.WriteLine("Test Send");							// send text
+	writer.Flush();
+
+	while(true)
+	{
+		// do nothing
+	}
 		
 } catch(Exception e) {
 	Console.WriteLine (e);
