@@ -5,17 +5,9 @@ USE ColiseumDatabase;
 
 CREATE TABLE Users (
 	username VARCHAR(25) PRIMARY KEY NOT NULL,
-	pass VARCHAR(50) NOT NULL,
-	highScore INT(25)
+	pass VARCHAR(50) NOT NULL
 );
 
-CREATE TABLE HighScores (
-	username VARCHAR(25) PRIMARY KEY NOT NULL,
-	highScore int(25) NOT NULL
-);
+INSERT INTO Users (username, pass)
+	VALUES ('testUser', 'b62a565853f37fb1ec1efc287bfcebf9');
 
-INSERT INTO Users (username, pass, highScore)
-	VALUES ('testUser', 'testPass', 69420);
-
-INSERT INTO HighScores (username, highScore)
-	VALUES ('testUser', 69420);
