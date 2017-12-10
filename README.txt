@@ -2,6 +2,7 @@ moonbase - co-op 2D platformer game written in Java.
 
 author: Jun Yen Leung - junyenle@usc.edu
 Responsible for all aspects EXCEPT login/registration backend.
+	Login/Registration backened written by Uri Rahimi and Jake Leventhal.
 
 External Libraries:
 	Java Swing
