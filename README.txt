@@ -1,25 +1,30 @@
-moonbase - co-op game.
+moonbase - co-op 2D platformer game written in Java.
 
-CP: 
-	Peifei Li
+author: Jun Yen Leung - junyenle@usc.edu
+Responsible for all aspects EXCEPT login/registration backend.
 
-Members:
-	Jun Yen Leung - junyenle@usc.edu
-	Ethan Barker - esbarker@usc.edu
-	Uri Rahimi - urahimi@usc.edu
-	Jake Leventhal - jglevent@usc.edu
-
-
-run instructions: 
-	run /resources/sql/setup.sql
-	run Server.ServerDriver.java
-	run Driver.GameStarter.java
+External Libraries:
+	Java Swing
+	JDBC
 	
-1P game fully working
-2P game needs a fix to the rocket and ending game
-
-Game Controls:
-	up to jump, left/right to move, down to reset to checkpoint (2P only)
+Documentation:
+	See fulldoc.docx for documentation.
+	See moonbase_presentation.ppt for demo powerpoint.
 	
-Testing Controls (for your convenience):
-	t to game over (1P only), down to jump to end (1P only)
+RUN INSTRUCTIONS:
+	import moonbase.zip project in eclipse
+	
+	single player:
+		run Driver.GameStarter.java on one client
+		continue as guest
+		1P game
+	multiplayer:
+		run setup.sql
+		run Server.ServerDriver.java
+		run Driver.GameStarter.java on two clients
+		register, login, select 2P game
+		
+	OR, FOR SINGLE PLAYER ONLY (no project import required):
+		run moonbase.jar
+		continue as guest
+		1P game
