@@ -4,7 +4,7 @@ Networked co-op 2D platformer game written in Java.
 
 # author: Jun Yen Leung
 
-Responsible for all aspects EXCEPT login/registration backend.
+Responsible for all aspects except login/registration backend.
 
 	Login/Registration backened written by Uri Rahimi and Jake Leventhal.
 
